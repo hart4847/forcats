@@ -66,5 +66,5 @@ Undid changes and saved and repeated the install and restart.  This fixed the er
 
 !!!!!!!!!!!Assignment 4/18 - Write me a few (10?) sentences in your Rmd file from Tuesday about making a package.
 
-Rule of 3 we talked about was interesting and follows one of my attitudes towards life, if it takes 2 minutes or less, just do it right then.  If you need/use a function more than 3 times, create a package.  There is a lot of restarting/reloading R to ensure everything is in order.  Editing the descrpition seems to be something important that I've overlooked in the past considering how many packages there are.  
+Rule of 3 we talked about was interesting and follows one of my attitudes towards life, if it takes 2 minutes or less, just do it right then.  If you need/use a function more than 3 times, create a package.  There is a lot of restarting/reloading R to ensure everything is in order.  Editing the descrpition seems to be something important that I've overlooked in the past considering how many packages there are.  We went through a lot of the nuisances and was more than I would have expected.  Licensing and creating readme type docs.
 
