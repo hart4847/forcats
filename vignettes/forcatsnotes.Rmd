@@ -1,0 +1,70 @@
+---
+title: "forcatsnotes"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+Didn't realize I was supposed to be writing on this rmd file for the answers.  I was following along.
+
+Edit: went back to write down YTs
+
+search()
+library(tidyverse)
+install.packages('usethis')
+git_vaccinate() (adding things to .ignore file)
+newe tab
+
+install and restart on build tab in forcat gives:
+* installing to library ‘/home/rstudio-user/R/x86_64-pc-linux-gnu-library/3.5’
+ERROR: dependency ‘ellipsis’ is not available for package ‘forcats’
+* removing ‘/home/rstudio-user/R/x86_64-pc-linux-gnu-library/3.5/forcats’
+
+Exited with status 1.
+
+Needed to instal package ellipsis.  After installing it reads:
+* installing to library ‘/home/rstudio-user/R/x86_64-pc-linux-gnu-library/3.5’
+* installing *source* package ‘forcats’ ...
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (forcats)
+
+
+changed function and got an error when saved and tried to re install and restart.
+
+Undid changes and saved and repeated the install and restart.  This fixed the error.
+
+!!!!!!!!!!!Assignment 4/18 - Write me a few (10?) sentences in your Rmd file from Tuesday about making a package.
+
+Rule of 3 we talked about was interesting and follows one of my attitudes towards life, if it takes 2 minutes or less, just do it right then.  If you need/use a function more than 3 times, create a package.  There is a lot of restarting/reloading R to ensure everything is in order.  Editing the descrpition seems to be something important that I've overlooked in the past considering how many packages there are.  
+
